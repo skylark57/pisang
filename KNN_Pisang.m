@@ -160,6 +160,8 @@ function pushbutton3_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
+% ----- Training data------
+
 image_folder = 'C:\Users\LENOVO\Documents\MATLAB\KNN PISANG\Training';
 filenames = dir(fullfile(image_folder, '*.png'));
 total_images = numel(filenames);
